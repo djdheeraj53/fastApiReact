@@ -10,3 +10,10 @@ unicorn main:app --reload
 
 # variable validation
 https://docs.pydantic.dev/latest/
+
+
+#debug application
+debug: res
+
+#Db
+Sql Alchemy
