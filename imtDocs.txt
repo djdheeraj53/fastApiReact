@@ -1,0 +1,9 @@
+python3 -m venv fastapi-env
+
+pip install fastapi
+
+pip install uvicorn
+
+
+# start server
+unicorn main:app --reload
