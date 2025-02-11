@@ -7,3 +7,6 @@ pip install uvicorn
 
 # start server
 unicorn main:app --reload
+
+# variable validation
+https://docs.pydantic.dev/latest/
