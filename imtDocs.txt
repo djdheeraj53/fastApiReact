@@ -1,19 +1,31 @@
+#start Virtual env
 python3 -m venv fastapi-env
 
-pip install fastapi
+#intall fastapi
+pip3 install fastapi
 
 pip install uvicorn
+
 
 
 # start server
 unicorn main:app --reload
 
+# kill the running server
+lsof -i :8000
+kill -9 PID
+
 # variable validation
 https://docs.pydantic.dev/latest/
 
+#SqlAlchemy
+https://www.sqlalchemy.org/
 
 #debug application
-debug: res
+find debug: restart >> FastApi
 
 #Db
 Sql Alchemy
+
+#install dependency from requirements.txt file
+pip3 install -r requirements.txt
